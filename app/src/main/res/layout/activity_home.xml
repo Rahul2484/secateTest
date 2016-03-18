@@ -8,24 +8,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.softproject.kartikrahulrajatraman.secatetest.MainActivity"
+    tools:context="com.softproject.kartikrahulrajatraman.secatetest.HomeActivity"
     android:background="#d44c4c">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="HOME"
-        android:id="@+id/homeButton"
-        android:layout_marginTop="100dp"
+        android:text="Going Home"
+        android:id="@+id/goingHomeButton"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="REGULAR"
-        android:id="@+id/regularButton"
-        android:layout_marginTop="150dp"
-        android:layout_below="@+id/homeButton"
-        android:layout_alignParentStart="true"/>
+        android:text="Coming Back"
+        android:id="@+id/comingBackButton"
+        android:layout_below="@+id/goingHomeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"/>
 </RelativeLayout>
